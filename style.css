@@ -1,0 +1,33 @@
+header {
+    background-color: rgb(251, 131, 66);
+    border-style: solid ;
+    width: 100%;
+    float: left;
+}
+
+#con {
+        background-color: rgb(251, 131, 66);
+        border-style: solid;
+        width: 200px;
+        height: 360px;
+        line-height: 40px;
+        text-align:center;
+        text-align:center;
+    align-items:   center;
+    align-content: center;
+    justify-content: center;
+     
+        
+        /* pura mágica */
+        position: absolute;
+        top: 50%; /* posiciona na metade da tela */
+        margin-top: -25px; /* e retrocede metade da altura */
+        left: 50%; /* posiciona na metade da tela */
+        margin-left: -100px; /* e retrocede metade da largura */
+      
+}
+
+#c , #f , #k {
+    border-style: solid;
+    border-color: black;
+} 

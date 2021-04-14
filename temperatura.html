@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperatura</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="container-fluid topo">
+        <h2 class="text-center text-dark ">Converter temperatura</h2>
+    </header>
+
+    <div class="card" style="width: 18rem; border-style: solid; border-color: black; 
+    width: 300px;
+    position: relative;
+    top: 20px;
+    left: 45px;
+    
+     background-color: rgb(251, 131, 66);
+     ">
+        <div class="card-body">
+          <h5 class="card-title">O que é uma temperatura?</h5>
+          <p class="card-text">A temperatura é uma medida do calor ou energia térmica das partículas de uma substância. Ela não depende do tamanho ou tipo de objeto.</p>
+       
+        </div>
+
+        <div class="card-body   ">
+            <h5 class="card-title"> Quem desenvolveu a escala fahrenheit? </h5>
+            <p class="card-text">A escala Fahrenheit foi desenvolvida pelo físico e engenheiro Gabriel Fahrenheit, no ano de 1724, após obter conhecimento sobre a construção de termômetros de mercúrio</p>
+         
+          </div>
+
+          <div class="card-body">
+            <h5 class="card-title">Quem desenvolveu a escala Kelvin?</h5>
+            <p class="card-text">A escala Kelvin foi proposta em 1864 pelo físico e engenheiro irlandês William Thomson, o qual também era conhecido como Lord Kelvin. Ele acreditava que era necessária uma escala termométrica que pudesse atribuir a um material uma total ausência de movimentação de suas partículas, o que ele chamou de zero absoluto.</p>
+         
+          </div>
+
+          <div class="card-body">
+            <h5 class="card-title">Quem desenvolveu a escala Celsius?</h5>
+            <p class="card-text">Trata-se de uma escala termométrica centígrada, ou seja, que apresenta cem intervalos entre os pontos de fusão e ebulição. Ela foi determinada no ano de 1742 pelo astrônomo sueco Anders Celsius.</p>
+         
+          </div>
+      </div>
+
+      
+      <div id="con">
+          <br>
+    <input  placeholder="Celsius (Cº)" type="text" id="c" name="c">
+    <br>
+    <br>
+    <input  placeholder="Fahrenheit (Fº)" type="text" id="f" name="f">
+    <br>
+    <br>
+    <input  placeholder="Kelvin (K)" type="text" id="k" name="k">
+    <br>
+    <br>
+    <button id="send"> Converter </button>
+   
+    <button id="clean"> Limpar </button>
+  </div>
+
+      <script src="java.js"></script>
+
+</body>
+</html>
